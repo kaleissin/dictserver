@@ -144,6 +144,446 @@
     }
   }, 
   {
+    "pk": 19, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "afr-deu", 
+      "description": "Africaan-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "afr-eng", 
+      "description": "Africaan-English Freedict Dictionary"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "ara-eng", 
+      "description": "English-Arabic Freedict Dictionary"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "cro-eng", 
+      "description": "Croatian-English Freedict Dictionary"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "cze-eng", 
+      "description": "Czech-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "dan-eng", 
+      "description": "Danish-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "deu-eng", 
+      "description": "German-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "deu-fra", 
+      "description": "German-French Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "deu-ita", 
+      "description": "German-Italian Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "deu-nld", 
+      "description": "German-Nederland Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "deu-por", 
+      "description": "German-Portugese Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-afr", 
+      "description": "English-Africaan Freedict Dictionary"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-ara", 
+      "description": "English-Arabic FreeDict Dictionary"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-cro", 
+      "description": "English-Croatian Freedict Dictionary"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-cze", 
+      "description": "English-Czech fdicts/FreeDict Dictionary"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-deu", 
+      "description": "English-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-fra", 
+      "description": "English-French Freedict Dictionary"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-hin", 
+      "description": "English-Hindi Freedict Dictionary"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-hun", 
+      "description": "English-Hungarian Freedict Dictionary"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-iri", 
+      "description": "English-Irish Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-ita", 
+      "description": "English-Italian Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-lat", 
+      "description": "English-Latin Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-nld", 
+      "description": "English-Netherlands Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-por", 
+      "description": "English-Portugese Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-rom", 
+      "description": "English-Romanian FreeDict dictionary"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-rus", 
+      "description": "English-Russian Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-spa", 
+      "description": "English-Spanish Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-swa", 
+      "description": "English-Swahili xFried/FreeDict Dictionary"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-swe", 
+      "description": "English-Swedish Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-tur", 
+      "description": "English-Turkish FreeDict Dictionary"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "eng-wel", 
+      "description": "English-Welsh Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "fra-deu", 
+      "description": "French-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "fra-eng", 
+      "description": "French-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "fra-nld", 
+      "description": "French-Nederlands Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "hin-eng", 
+      "description": "English-Hindi Freedict Dictionary [reverse index]"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "hun-eng", 
+      "description": "Hungarian-English FreeDict Dictionary"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "iri-eng", 
+      "description": "Irish-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "ita-deu", 
+      "description": "Italian-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "jpn-deu", 
+      "description": "Japanese-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "kha-deu", 
+      "description": "Khasi-German FreeDict Dictionary"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "lat-deu", 
+      "description": "Latin-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "lat-eng", 
+      "description": "Latin-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "nld-deu", 
+      "description": "Nederlands-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 62, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "nld-eng", 
+      "description": "Nederlands-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 63, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "nld-fra", 
+      "description": "Nederlands-French Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 64, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "por-deu", 
+      "description": "Portugese-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 65, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "por-eng", 
+      "description": "Portugese-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 66, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "sco-deu", 
+      "description": "Scottish-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 67, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "scr-eng", 
+      "description": "Serbo-Croat-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 68, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "slo-eng", 
+      "description": "Slovenian-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 69, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "spa-eng", 
+      "description": "Spanish-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 70, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "swa-eng", 
+      "description": "Swahili-English xFried/FreeDict Dictionary"
+    }
+  }, 
+  {
+    "pk": 71, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "swe-eng", 
+      "description": "Swedish-English Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 72, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "tur-deu", 
+      "description": "Turkish-German Freedict dictionary"
+    }
+  }, 
+  {
+    "pk": 73, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "tur-eng", 
+      "description": "Turkish-English Freedict dictionary"
+    }
+  }, 
+  {
     "pk": 1, 
     "model": "dictserver.strategy", 
     "fields": {
@@ -257,7 +697,62 @@
         15, 
         16, 
         17, 
-        18
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31, 
+        32, 
+        33, 
+        34, 
+        35, 
+        36, 
+        37, 
+        38, 
+        39, 
+        40, 
+        41, 
+        42, 
+        43, 
+        44, 
+        45, 
+        46, 
+        47, 
+        48, 
+        49, 
+        50, 
+        51, 
+        52, 
+        53, 
+        54, 
+        55, 
+        56, 
+        57, 
+        58, 
+        59, 
+        60, 
+        61, 
+        62, 
+        63, 
+        64, 
+        65, 
+        66, 
+        67, 
+        68, 
+        69, 
+        70, 
+        71, 
+        72, 
+        73
       ], 
       "port": 2628, 
       "server": "dict.org"
