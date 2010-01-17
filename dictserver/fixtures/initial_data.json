@@ -1,0 +1,266 @@
+[
+  {
+    "pk": 1, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "gcide", 
+      "description": "The Collaborative International Dictionary of English v.0.48"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "wn", 
+      "description": "WordNet (r) 2.0"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "moby-thes", 
+      "description": "Moby Thesaurus II by Grady Ward, 1.0"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "elements", 
+      "description": "Elements database 20001107"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "vera", 
+      "description": "Virtual Entity of Relevant Acronyms (Version 1.9, June 2002)"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "jargon", 
+      "description": "Jargon File (4.3.1, 29 Jun 2001)"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "foldoc", 
+      "description": "The Free On-line Dictionary of Computing (27 SEP 03)"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "easton", 
+      "description": "Easton's 1897 Bible Dictionary"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "hitchcock", 
+      "description": "Hitchcock's Bible Names Dictionary (late 1800's)"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "bouvier", 
+      "description": "Bouvier's Law Dictionary, Revised 6th Ed (1856)"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "devils", 
+      "description": "THE DEVIL'S DICTIONARY ((C)1911 Released April 15 1993)"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "world02", 
+      "description": "CIA World Factbook 2002"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "gazetteer", 
+      "description": "U.S. Gazetteer (1990)"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "gaz-county", 
+      "description": "U.S. Gazetteer Counties (2000)"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "gaz-place", 
+      "description": "U.S. Gazetteer Places (2000)"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "gaz-zip", 
+      "description": "U.S. Gazetteer Zip Code Tabulation Areas (2000)"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "web1913", 
+      "description": "Webster's Revised Unabridged Dictionary (1913)"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "dictserver.database", 
+    "fields": {
+      "name": "world95", 
+      "description": "The CIA World Factbook (1995)"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "exact", 
+      "description": "Match headwords exactly"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "prefix", 
+      "description": "Match prefixes"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "substring", 
+      "description": "Match substring occurring anywhere in a headword"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "suffix", 
+      "description": "Match suffixes"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "re", 
+      "description": "POSIX 1003.2 (modern) regular expressions"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "regexp", 
+      "description": "Old (basic) regular expressions"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "soundex", 
+      "description": "Match using SOUNDEX algorithm"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "lev", 
+      "description": "Match headwords within Levenshtein distance one"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "dictserver.strategy", 
+    "fields": {
+      "is_default": false, 
+      "name": "word", 
+      "description": "Match separate words within headwords"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "dictserver.dictserver", 
+    "fields": {
+      "strategies": [
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9
+      ], 
+      "databases": [
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18
+      ], 
+      "port": 2628, 
+      "server": "dict.org"
+    }
+  }
+]
